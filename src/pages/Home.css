@@ -1,0 +1,39 @@
+/* ExploreContainer.css */
+.camera-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+  }
+  
+  .preview-container {
+    width: 100%;
+  }
+  
+  .preview-container ion-img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .id-card-section {
+    padding: 16px;
+  }
+  
+  ion-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-item {
+    --background: transparent;
+  }
+  
+  @media (max-width: 576px) {
+    ion-card {
+      margin: 0;
+      box-shadow: none;
+    }
+  }
